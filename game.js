@@ -27,6 +27,7 @@ function startGame() {
 
   // Get the player's name
   playerName = playerNameInput.value.trim();
+  
 
   // Hide the name input section and start button
   document.getElementById('name-input-section').style.display = 'none';
