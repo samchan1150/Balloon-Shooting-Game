@@ -1,0 +1,104 @@
+/* Game Container */
+#game-container {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Start Button */
+#start-button {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #28a745; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#start-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Name Input Section */
+#name-input-section {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#name-input-section label {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #333;
+}
+
+#name-input-section input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+/* Timer and Score Board */
+#score-board, #timer {
+  position: absolute;
+  top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+#score-board {
+  left: 10px;
+}
+
+#timer {
+  right: 10px;
+}
+
+/* Game Canvas */
+#game-canvas {
+  border: 1px solid #ccc;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Body and Heading */
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 36px;
+  color: #333;
+}
+
+/* Leaderboard Styles */
+#leaderboard {
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#leaderboard h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#leaderboard-list {
+  list-style-type: decimal;
+  padding-left: 20px;
+  text-align: left;
+}
+
+#leaderboard-list li {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #555;
+}

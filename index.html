@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Balloon Shooting Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Balloon Shooting Game</h1>
+  <div id="game-container">
+    <!-- Name Input Section -->
+    <div id="name-input-section">
+      <label for="player-name">Enter your name:</label>
+      <input type="text" id="player-name" name="player-name" required>
+    </div>
+
+    <!-- Start Button -->
+    <button id="start-button" disabled>Start Game</button>
+
+    <!-- Leaderboard Section -->
+    <div id="leaderboard">
+      <h2>Leaderboard</h2>
+      <ol id="leaderboard-list">
+        <!-- High scores will be dynamically inserted here -->
+      </ol>
+    </div>
+
+    <!-- Game Elements -->
+    <div id="score-board">
+      Score: <span id="score">0</span>
+    </div>
+    <div id="timer">
+      Time Left: <span id="time">30</span>s
+    </div>
+    <canvas id="game-canvas" width="800" height="600" style="display: none;"></canvas>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
